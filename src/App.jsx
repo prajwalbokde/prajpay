@@ -113,10 +113,10 @@ function App() {
   return (
     <div className="min-h-screen bg-[#f7f8fc] text-slate-900">
       {/* Navbar */}
-      <nav className="sticky top-0 z-50 border-b border-slate-200/70 bg-white/90 backdrop-blur-xl">
+      <nav className="sticky top-0 z-50 border-b border-slate-200/70 bg-slate-900  backdrop-blur-xl text-white">
         <div className="mx-auto flex max-w-7xl items-center justify-between px-6 py-4 text-white">
           <a href="#" className="flex items-center gap-2.5">
-            <div className="flex h-10 w-10 items-center justify-center rounded-xl bg-violet-600 text-white shadow-lg shadow-violet-200">
+            <div className="flex h-10 w-10 items-center justify-center rounded-xl bg-violet-600 text-white ">
               <Wallet size={22} />
             </div>
             <span className="text-2xl font-extrabold tracking-tight">
@@ -124,7 +124,7 @@ function App() {
             </span>
           </a>
 
-          <div className="hidden items-center gap-8 text-sm font-medium text-slate-600 md:flex">
+          <div className="hidden items-center gap-8 text-sm font-medium md:flex">
             <a href="#generator" className="transition hover:text-violet-600">
               Generator
             </a>
@@ -138,7 +138,7 @@ function App() {
 
           <a
             href="#generator"
-            className="rounded-full bg-violet-600 px-5 py-2.5 text-sm font-semibold text-white shadow-md shadow-violet-200 transition hover:bg-violet-700"
+            className="rounded-full bg-violet-600 px-5 py-2.5 text-sm font-semibold text-white  transition hover:bg-violet-700"
           >
             Get Started
           </a>
