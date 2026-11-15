@@ -114,7 +114,7 @@ function App() {
     <div className="min-h-screen bg-[#f7f8fc] text-slate-900">
       {/* Navbar */}
       <nav className="sticky top-0 z-50 border-b border-slate-200/70 bg-white/90 backdrop-blur-xl">
-        <div className="mx-auto flex max-w-7xl items-center justify-between px-6 py-4">
+        <div className="mx-auto flex max-w-7xl items-center justify-between px-6 py-4 text-white">
           <a href="#" className="flex items-center gap-2.5">
             <div className="flex h-10 w-10 items-center justify-center rounded-xl bg-violet-600 text-white shadow-lg shadow-violet-200">
               <Wallet size={22} />
@@ -149,7 +149,7 @@ function App() {
       <main>
         <section className="mx-auto grid max-w-7xl items-center gap-12 px-6 py-16 md:grid-cols-2 md:py-24">
           <div>
-            <div className="mb-6 inline-flex items-center gap-2 rounded-full border border-violet-100 bg-violet-50 px-4 py-2 text-sm font-semibold text-violet-700">
+            <div className=" mb-6 inline-flex items-center gap-2 rounded-full border border-violet-100 bg-violet-50 px-4 py-2 text-sm font-semibold text-violet-700">
               <Sparkles size={15} />
               Simple. Fast. Secure.
             </div>
@@ -164,7 +164,7 @@ function App() {
               link in seconds. No complicated setup. Just simple payments.
             </p>
 
-            <div className="mt-8 flex flex-wrap gap-4">
+            <div className="mt-8 flex flex-wrap gap-4 text-white">
               <a
                 href="#generator"
                 className="inline-flex items-center gap-2 rounded-xl bg-violet-600 px-6 py-3.5 font-semibold text-white shadow-lg shadow-violet-200 transition hover:-translate-y-0.5 hover:bg-violet-700"
@@ -474,9 +474,9 @@ function App() {
 
         {/* About */}
         <section id="about" className="px-6 py-20">
-          <div className="mx-auto max-w-4xl rounded-3xl bg-gradient-to-br from-violet-700 to-indigo-700 px-8 py-14 text-center text-white shadow-xl shadow-violet-200 md:px-16">
+          <div className="mx-auto max-w-4xl rounded-3xl bg-gradient-to-br from-violet-700 to-indigo-700 px-8 py-14 text-center shadow-xl shadow-violet-200 md:px-16">
             <Sparkles size={30} className="mx-auto text-violet-200" />
-            <h2 className="mt-5 text-3xl font-black md:text-4xl">
+            <h2 className="mt-5 text-3xl font-black md:text-4xl text-white">
               Make every payment simpler.
             </h2>
             <p className="mx-auto mt-4 max-w-xl leading-7 text-violet-100">
@@ -485,7 +485,7 @@ function App() {
             </p>
             <a
               href="#generator"
-              className="mt-8 inline-flex items-center gap-2 rounded-xl bg-black px-6 py-3.5 font-bold text-violet-700 transition hover:bg-voilet-50"
+              className=" text-black mt-8 inline-flex items-center gap-2 rounded-xl bg-white  px-6 py-3.5 font-bold transition hover:bg-voilet-50"
             >
               Create your QR <ArrowUpRight size={18} />
             </a>
